@@ -1,5 +1,0 @@
-:{$PORT} {
-    root * /srv
-    file_server
-    bind 0.0.0.0
-}
