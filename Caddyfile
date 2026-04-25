@@ -1,0 +1,5 @@
+:8080 {
+    root * /app
+    encode gzip
+    file_server
+}
