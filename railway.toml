@@ -1,6 +1,5 @@
 [build]
-builder = "nixpacks"
-nixPkgs = ["caddy"]
+builder = "dockerfile" 
 
 [deploy]
-startCommand = "caddy run --config Caddyfile --adapter caddyfile"
+healthcheckPath = "/"
