@@ -1,7 +1,7 @@
 FROM caddy:2-alpine
 
-COPY. /srv
-WORDIR /srv
+COPY . /srv
+WORKDIR /srv
 
 EXPOSE 8080
 
