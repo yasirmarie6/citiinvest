@@ -1,5 +1,6 @@
 [build]
 builder = "nixpacks"
+nixPkgs = ["caddy"]
 
 [deploy]
-startCommand =caddy run --config Caddyfile --adapter caddyfile"
+startCommand = "caddy run --config Caddyfile --adapter caddyfile"
